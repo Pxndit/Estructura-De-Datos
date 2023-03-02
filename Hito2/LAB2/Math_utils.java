@@ -23,10 +23,17 @@ public class Math_utils {
         for (int i=1;i<=limit;i++){
             if (i%2==0)
                 System.out.print(i+",");
-        }
-    }
-    public void getExtencionFromCI(String limit){
 
+        }
+        System.out.println("");
+    }
+    public void getExtencionFromCI(String ci){
+        System.out.println("MUESTRA EXTENCION DE CELULA");
+        String ext = " " ;
+        //68856338lp
+        ext = ci.substring(8);
+        //mostrando la extecion
+        System.out.println("Extencion = " + ext);
     }
 
 }
